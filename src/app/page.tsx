@@ -31,14 +31,14 @@ export default function Home() {
       <footer className="bg-neutral-800 text-white py-12">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-primary-400">NuBite</h3>
+            <h3 className="text-2xl font-bold text-primary-400">Nubite</h3>
             <p className="text-neutral-300">
               Functional Snack Bar - The Future of Healthy Snacking
             </p>
           </div>
           
           <div className="flex justify-center space-x-8 text-sm text-neutral-400">
-            <span>© 2024 NuBite. All rights reserved.</span>
+            <span>© 2024 Nubite. All rights reserved.</span>
             <span>•</span>
             <span>Privacy Policy</span>
             <span>•</span>

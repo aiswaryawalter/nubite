@@ -78,7 +78,7 @@ export default function SubscribeSection() {
             Be the First to Taste
           </h2>
           <p className="text-xl text-neutral-600">
-            Join our exclusive list of early taste testers and be among the first to experience NuBite.
+            Join our exclusive list of early taste testers and be among the first to experience Nubite.
           </p>
         </div>
         

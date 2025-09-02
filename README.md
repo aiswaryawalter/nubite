@@ -1,6 +1,6 @@
-# NuBite - Functional Snack Bar Website
+# Nubite - Functional Snack Bar Website
 
-A modern, responsive marketing website for NuBite functional snack bars built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive marketing website for Nubite functional snack bars built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 

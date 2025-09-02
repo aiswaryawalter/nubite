@@ -1,4 +1,4 @@
-Functional Snack Bar Website - NuBite — Build Instructions
+Functional Snack Bar Website - Nubite — Build Instructions
 
 Goal: Build a single-page marketing website for a new functional snack bar. The site should introduce the product, engage visitors, collect survey responses, and capture early testers’ emails.
 

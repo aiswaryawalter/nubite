@@ -1,7 +1,5 @@
 'use client'
 
-import Logo from './Logo'
-
 export default function Hero() {
   const scrollToNextSection = () => {
     const nextSection = document.getElementById('qr-section')
@@ -13,7 +11,14 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-primary-50 via-neutral-50 to-accent-50 section-padding">
       <div className="max-w-4xl mx-auto text-center space-y-12">
-        <Logo />
+        <div className="flex flex-col items-center space-y-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-700 text-center">
+            Nubite
+          </h1>
+          <p className="text-xl sm:text-2xl text-neutral-600 text-center font-medium">
+            Functional Snack Bar
+          </p>
+        </div>
         
         <div className="space-y-8">
           <p className="text-xl sm:text-2xl text-neutral-700 max-w-3xl mx-auto leading-relaxed">

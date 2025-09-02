@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 export default function QRSection() {
-  const surveyUrl = "https://forms.google.com/your-survey-url" // Replace with actual Google Form URL
+  const surveyUrl = "https://docs.google.com/forms/d/e/1FAIpQLScq7zUEvp3oV4Ai6ETkSx9qYWUHHsXKcDl3X82CK8kmCZL88A/viewform?usp=header"
   
   const openSurvey = () => {
     window.open(surveyUrl, '_blank')
@@ -24,9 +24,9 @@ export default function QRSection() {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16">
           <div className="space-y-4">
-            <div className="relative w-48 h-48 bg-neutral-100 rounded-lg border-2 border-dashed border-neutral-300 flex items-center justify-center">
+            <div className="relative w-48 h-48 bg-white rounded-lg border-2 border-neutral-200 flex items-center justify-center shadow-lg">
               <Image
-                src="/qr-placeholder.png"
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(surveyUrl)}`}
                 alt="Survey QR Code"
                 fill
                 className="object-contain p-4"
